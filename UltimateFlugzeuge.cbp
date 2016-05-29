@@ -44,6 +44,7 @@
 		<Unit filename="Engine/Movement/Engine_Movement.h" />
 		<Unit filename="Engine/Movement/Movement_Gravity.cpp" />
 		<Unit filename="Engine/Movement/Movement_LocalScale.cpp" />
+		<Unit filename="Engine/Movement/Movement_Speed.cpp" />
 		<Unit filename="Engine/Script/Engine_Script.h" />
 		<Unit filename="Engine/Script/Script_LuaStartEnd.cpp" />
 		<Unit filename="main.cpp" />

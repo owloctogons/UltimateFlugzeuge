@@ -2,47 +2,59 @@
 
 int gravityValue(float weight, double spriteAngle){
 
-    ///CHANGE TO SWITCH-CASE
+    // TO-DO: CHANGE TO SWITCH-CASE (if possible)
 
+    int spriteAngle_ = (int)spriteAngle;
+    float gravity;
 
-    int gravity;
-
-    if(player_acceleration <= 0){
+    if(player_acceleration >= 0){
         gravity = 0;
     }else{
-        //
-        if(spriteAngle <= 22.5 && spriteAngle >= 0){
-            gravity = weight;
-        }else if(spriteAngle <= 45 && spriteAngle >= 22.5){
-            gravity = weight - 5;
-        }else if(spriteAngle <= 67.5 && spriteAngle >= 45){
-            gravity = weight - 10;
-        }else if(spriteAngle <= 90 && spriteAngle >= 67.5){
-            gravity = weight - 15;
-        }else if(spriteAngle <= 112.5 && spriteAngle >= 90){
-            gravity = weight - 15;
-        }else if(spriteAngle <= 135 && spriteAngle >= 112.5){
-            gravity = weight - 10;
-        }else if(spriteAngle <= 157.5 && spriteAngle >= 135){
-            gravity = weight - 5;
-        }else if(spriteAngle <= 180 && spriteAngle >= 157.5){
-            gravity = weight;
-        }else if(spriteAngle <= 202.5 && spriteAngle >= 180){
-            gravity = weight;
-        }else if(spriteAngle <= 225 && spriteAngle >= 202.5){
-            gravity = weight - 5;
-        }else if(spriteAngle <= 247.5 && spriteAngle >= 225){
-            gravity = weight - 10;
-        }else if(spriteAngle <= 270 && spriteAngle >= 247.5){
-            gravity = weight - 15;
-        }else if(spriteAngle <= 292.5 && spriteAngle >= 270){
-            gravity = weight - 15;
-        }else if(spriteAngle <= 315 && spriteAngle >= 292.5){
-            gravity = weight - 10;
-        }else if(spriteAngle <= 337.5 && spriteAngle >= 315){
-            gravity = weight - 5;
-        }else if(spriteAngle <= 360 && spriteAngle >= 337.5){
-            gravity = weight;
+
+        switch (spriteAngle_){
+
+            case 0 ... 22:
+                gravity = weight;
+            break;
+            case 23 ... 45:
+                gravity = weight - 5;
+            break;
+            case 46 ... 67:
+                gravity = weight - 15;
+            break;
+            case 68 ... 112:
+                gravity = weight - 25;
+            break;
+            case 113 ... 135:
+                gravity = weight - 15;
+            break;
+            case 136 ... 157:
+                gravity = weight - 5;
+            break;
+            case 158 ... 202:
+                gravity = weight;
+            break;
+            case 203 ... 225:
+                gravity = weight - 5;
+            break;
+            case 226 ... 247:
+                gravity = weight - 15;
+            break;
+            case 248 ... 292:
+                gravity = weight - 25;
+            break;
+            case 293 ... 315:
+                gravity = weight - 15;
+            break;
+            case 316 ... 337:
+                gravity = weight - 5;
+            break;
+            case 338 ... 360:
+                gravity = weight;
+            break;
+            default:
+                gravity = weight;
+            break;
         }
     }
 
