@@ -9,7 +9,7 @@
 			<Target title="Debug">
 				<Option output="bin/Debug/UltimateFlugzeuge" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
-				<Option type="1" />
+				<Option type="0" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
@@ -40,13 +40,10 @@
 		<Unit filename="Engine/Basic/Basic_SDLFunc.cpp" />
 		<Unit filename="Engine/Basic/Engine_Basic.h" />
 		<Unit filename="Engine/Engine.h" />
-		<Unit filename="Engine/LuaBridge/LuaBridge.h" />
 		<Unit filename="Engine/Movement/Engine_Movement.h" />
 		<Unit filename="Engine/Movement/Movement_Gravity.cpp" />
 		<Unit filename="Engine/Movement/Movement_LocalScale.cpp" />
 		<Unit filename="Engine/Movement/Movement_Speed.cpp" />
-		<Unit filename="Engine/Script/Engine_Script.h" />
-		<Unit filename="Engine/Script/Script_LuaStartEnd.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

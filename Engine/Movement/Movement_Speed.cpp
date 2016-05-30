@@ -1,10 +1,10 @@
 #include "Engine_Movement.h"
 
-float accelerationValue(bool key_W, float speed){
+float accelerationValue(bool key_UP, float speed){
 
     float acceleration;
 
-    if(key_W == true){
+    if(key_UP == true){
         acceleration = 1.4;
     }else if(speed == 0){
         acceleration = 0;
@@ -13,4 +13,10 @@ float accelerationValue(bool key_W, float speed){
     }
 
     return acceleration;
+}
+
+float speedValue(float acceleration){
+
+    float speed = speed + acceleration;
+    return speed;
 }

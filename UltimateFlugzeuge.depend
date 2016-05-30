@@ -481,18 +481,15 @@
 	<ctime>
 	<SDL.h>
 
-1464222268 source:e:\documents\programs\ultimateflugzeuge\main.cpp
+1464583647 source:e:\documents\programs\ultimateflugzeuge\main.cpp
 	"Engine/engine.h"
 	<SDL.h>
 	<SDL_image.h>
 	<stdio.h>
-	<lua.hpp>
 
-1464308051 e:\documents\programs\ultimateflugzeuge\engine\engine.h
+1464582822 e:\documents\programs\ultimateflugzeuge\engine\engine.h
 	"Basic/Engine_Basic.h"
 	"Movement/Engine_Movement.h"
-	"Script/Engine_Script.h"
-	"LuaBridge/LuaBridge.h"
 
 1462670246 e:\documents\programs\ultimateflugzeuge\engine\box2d\box2d.h
 	"Common/b2Settings.h"
@@ -843,7 +840,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1463622377 e:\documents\programs\ultimateflugzeuge\engine\movement\engine_movement.h
+1464583563 e:\documents\programs\ultimateflugzeuge\engine\movement\engine_movement.h
 	"../Engine.h"
 
 1462753227 source:e:\documents\programs\ultimateflugzeuge\parts\parts_engine.cpp
@@ -876,7 +873,7 @@
 1463796772 e:\documents\programs\ultimateflugzeuge\engine\basic\engine_basic.h
 	"../Engine.h"
 
-1464308859 source:e:\documents\programs\ultimateflugzeuge\engine\movement\movement_gravity.cpp
+1464560719 source:e:\documents\programs\ultimateflugzeuge\engine\movement\movement_gravity.cpp
 	"Engine_Movement.h"
 
 1463274707 source:e:\documents\programs\ultimateflugzeuge\engine\script\script_luastartend.cpp
@@ -906,12 +903,13 @@
 	<stdio.h>
 	"lua.h"
 
-1463709577 source:e:\documents\programs\ultimateflugzeuge\engine\basic\basic_sdlfunc.cpp
+1464574901 source:e:\documents\programs\ultimateflugzeuge\engine\basic\basic_sdlfunc.cpp
 	"Engine_Basic.h"
 	<SDL.h>
 	<stdio.h>
+	<windows.h>
 
-1463622319 e:\documents\programs\ultimateflugzeuge\engine\script\engine_script.h
+1464582730 e:\documents\programs\ultimateflugzeuge\engine\script\engine_script.h
 	"../Engine.h"
 
 1463796732 e:\documents\programs\ultimateflugzeuge\engine\luabridge\luabridge.h
@@ -921,4 +919,7 @@
 	<string.h>
 	<cassert>
 	<string>
+
+1464582180 source:e:\documents\programs\ultimateflugzeuge\engine\movement\movement_speed.cpp
+	"Engine_Movement.h"
 

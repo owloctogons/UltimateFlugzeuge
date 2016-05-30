@@ -7,13 +7,6 @@
 ///Movement!!
 #include "Movement/Engine_Movement.h"
 
-// Script!!
-#include "Script/Engine_Script.h"
-
-// LuaBridge!!
-#include "LuaBridge/LuaBridge.h"
-
-
 // Player
 extern float player_speed;
 extern float player_weight;
@@ -22,5 +15,14 @@ extern double player_x;
 extern double player_y;
 extern double player_angle;
 
+// Key presses
+extern bool kp_UP;
+extern bool kp_LEFT;
+extern bool kp_DOWN;
+extern bool kp_RIGHT;
+extern bool kp_Z;
+extern bool kp_X;
+extern bool kp_C;
+extern bool kp_ESC;
 
 #endif // ENGINE_H
