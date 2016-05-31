@@ -1,0 +1,8 @@
+/ABOUT\
+Ultimate Flugzeuge is a spin-off of Luftrausers, which is a game by Vlambeer, however, all content is original. This game is a 2D arcade shooter game, just like Luftrausers and will have more modern-ish planes. This game will not have the same color-theme system as Luftrausers, but, will be full-RGB color.
+/PLANES\
+You will be able to play as different planes. Eventually, I will add Steam Workshop so that you can make your own plane (simple as creating a 32x32 sprite w/transparent background and a file that defines weight/max-speed/etc.). At release, there will be a basic plane, a laser plane and some other planes that I haven't decided on yet.
+/ENEMIES\
+Enemies will try and kill you, and you can destroy them (like in any shooter game). There will be enemy planes, boats, battleships, submarines and blimps/zeppelins, same as in Luftrausers, however, weapons on enemies may vary and so will their AI.
+/MULTIPLAYER\
+There will be multiplayer at or after launch and you will be able to play with your friends, unlike Luftrausers. Different modes will be implemented including PvP, Teams and a special mode called DeadlySquadron which is similar to SFMT in Luftrausers, however, there is ONLY a higher spawn rate and you get to play with 11 other people (or smaller, depending on what you specify when setting up the game). Whoever hosts the game in DeadlySquadron chooses the plane and everyone else has to use that plane (this may change, based on feedback)

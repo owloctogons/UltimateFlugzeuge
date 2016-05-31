@@ -44,6 +44,8 @@
 		<Unit filename="Engine/Movement/Movement_Gravity.cpp" />
 		<Unit filename="Engine/Movement/Movement_LocalScale.cpp" />
 		<Unit filename="Engine/Movement/Movement_Speed.cpp" />
+		<Unit filename="Engine/Render/Engine_Render.h" />
+		<Unit filename="Engine/Render/Render_Texture.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

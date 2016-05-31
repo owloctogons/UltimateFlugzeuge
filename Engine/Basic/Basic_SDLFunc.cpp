@@ -1,5 +1,6 @@
 #include "Engine_Basic.h"
 #include <SDL.h>
+#include <SDL_image.h>
 #include <stdio.h>
 #include <windows.h>
 
@@ -19,10 +20,15 @@ void startSDL(){
                              SDL_WINDOWPOS_UNDEFINED,
                              mX,
                              mY,
-                             SDL_WINDOW_FULLSCREEN);
+                             SDL_WINDOW_FULLSCREEN || SDL_WINDOW_SHOWN);
+    //Initialize SDL_image
+    IMG_Init(IMG_INIT_PNG);
+
 }
 
 void endSDL(){
+    //Quit SDL_image
+    IMG_Quit();
     //Destroy window
     SDL_DestroyWindow(game_window);
     game_window = NULL;
